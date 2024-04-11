@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>
+             Grids practice
+        </title>
+    </head>
+    <style>
+
+        .container {
+            display: grid;
+            background-color:rgb(255, 0, 0);
+            height: 620px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 40px 1fr 40px;
+            row-gap: 10px;
+            column-gap: 10px;
+           
+        }
+        .items {
+            background-color: rgb(5, 5, 255);
+        }
+
+        .header{
+            background-color: rgb(255, 0, 221);
+            grid-column-start: 1;
+            grid-column-end: 5;
+           
+        }
+        .footer {
+            background-color: rgb(255, 0, 221);
+            grid-column-start: 1;
+            grid-column-end: 5;
+
+        }
+
+    </style>
+    <body> 
+        <!-- <div class="container">
+            <div class="header">
+                This is a header   
+            </div>
+            <div class="items">   
+            </div>
+            <div class="items">   
+            </div>
+            <div class="items">   
+            </div> 
+            <div class="footer"> 
+                this is a footer   
+            </div>   
+        </div> -->
+
+        <div style="display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 20px;
+        border: 1 px solid grey; height: 1000px;">
+            <div style="background-color: lightpink;">
+                <div style="width:auto;">
+                    <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp">
+                </div>
+            </div> 
+            <div style="background-color: lightblue;">
+                <div style="width: 100%;">
+                    <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp">
+                </div>
+            </div>
+            <div style="background-color: lightpink;">
+                <div style="width: 100%;">
+                    <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp">
+                </div>
+            </div>
+            <div style="background-color: lightblue;">
+                <div style="width: 100%;">
+                    <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp">
+                </div>
+            </div> 
+            <div style="background-color: lightpink;">
+                <div style="width: 100%;">
+                    <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp">
+                </div>
+            </div>
+            <div style="background-color: lightblue;">
+                <div style="width: 100%;">
+                    <img src="https://supersimple.dev/public/img/exercises/youtube/thumbnails/thumbnail-1.webp">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

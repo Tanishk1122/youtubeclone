@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Flexbox Practice </title>
+    </head>
+    <style>
+        .container1{
+            display: flex;
+            height: 70px;
+            border: 1px solid gray;
+            flex-direction: row;
+            margin-bottom: 10px;
+            justify-content:space-between;
+        }
+
+        .container2{
+            display: flex;
+            height: 70px;
+            border: 1px solid gray;
+            flex-direction: row;
+            margin-bottom: 10px;
+            justify-content:space-between;
+            align-items: center;
+        }
+
+        .inner{
+            background-color: #ff0000;
+            border: 1px solid black;
+        }
+
+    </style>    
+    <body style="padding-top: 100px;">
+        <!-- <div class="">
+            <div class="inner"> FLex1
+            </div>
+
+            <div class="inner"> FLex2
+                <p> Flex1.a</p>
+            </div>
+        </div> -->
+
+        <div class="container1">
+            <div style="background-color: #aed8ff; width: 100px;"> 100px
+            </div>
+            
+            <div style="background-color: #ffa5a5; width: 100px;"> 100px
+            </div>
+            <div style="background-color: #aed8ff; width: 100px;"> 100px
+            </div>
+        </div>
+
+        <div class="container2">
+            <div style="background-color: #aed8ff; width: 100px;"> 100px
+            </div>
+            
+            <div style="background-color: #ffa5a5; width: 100px;"> 100px
+            </div>
+            <div style="background-color: #aed8ff; width: 100px;"> 100px
+            </div>
+        </div>
+        
+    </body>
+</html>

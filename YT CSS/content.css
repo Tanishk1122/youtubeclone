@@ -1,0 +1,107 @@
+.outergrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    column-gap: 17px;
+    row-gap: 20px;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 120px;
+    }
+    
+    @media (max-width:960px){
+        .outergrid{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    .video-preview{
+        position: relative;
+        width: 100%;
+
+    }
+ 
+    .pp {
+        width:36px;
+        height:36px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    /* .cp {
+        width: 36px;
+        
+    } */
+
+    .video-grid-info {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+       
+    }
+
+    .txt {
+        width: 100%;
+        height: 100%; 
+    }
+
+    /* .sb {
+        display: inline-block;
+        margin-bottom: 10px;
+        border:2px solid;
+        border-color: rgb(192, 192, 192);
+        border-width: 0.5px;
+        font-size: small;
+        border-radius: 2px;
+        height: 40px;
+        
+    }
+
+    .srch {
+        display: block;
+        margin-bottom: 10px;
+        border:2px solid;
+        border-color: rgb(192, 192, 192);
+        border-width: 0.5px;
+        font-size: small;
+        border-radius: 2px;
+        height: 40px;
+        width:50px;
+        margin-right: 0px;
+    } */
+
+    /* .sb:active {
+        color: blue;
+    } */
+
+    .thumbnail {
+        width: 100%;
+        height: 100%;
+    }
+    .stats { 
+        color: rgb(96, 96, 96);
+        font-family: Roboto, Arial;
+        font-size: small;
+    }
+
+    .videotit {
+        font-family: Roboto, Arial;
+        font-weight:300;
+        color: rgb(0, 0, 0);
+    }
+
+    .video-time{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        font-size: 12px;
+        font-family: Roboto, Arial;
+        font-weight: 500;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: px;
+    }
